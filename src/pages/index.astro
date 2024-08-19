@@ -1,16 +1,43 @@
 ---
-
+import "../styles/styles.scss";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Astro</title>
+    </head>
+    <body>
+        <header
+            class="text-bg-dark min-vh-100 d-flex flex-column justify-content-center"
+        >
+            <div class="container py-3 p-lg-5 text-center">
+                <h1 class="display-1 text-uppercase fw-semibold mb-1">Astro</h1>
+                <p class="lead mb-0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+            </div>
+        </header>
+        <main id="main-content">
+            <section
+                class="text-bg-light min-vh-100 d-flex flex-column justify-content-center"
+            >
+                <div class="container py-3 p-lg-5">
+                    <div class="col-12 col-lg-7 col-xl-8">
+                        <h2 class="text-secondary">About this repository</h2>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. A <a href="">reiciendis assumenda</a> vel maxime modi sint
+                            earum reprehenderit veritatis, nemo delectus quia
+                            hic illum vitae est sit dolorem odio accusantium
+                            nesciunt?
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>

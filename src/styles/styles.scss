@@ -1,0 +1,23 @@
+@import "custom";
+
+html {
+    font-size: 18px;
+}
+
+@media (min-width: 564px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 996px) {
+    html {
+        font-size: 24px;
+    }
+}
